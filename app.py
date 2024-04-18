@@ -1,8 +1,8 @@
 from openai import OpenAI
 import streamlit as st
 
-#f = open("D:\Innomatics\OpenAI_handson\.openai_api_key.txt")
-key = "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"
+f = open("D:\Innomatics\OpenAI_handson\.openai_api_key.txt")
+key = f.read()
 
 client = OpenAI(api_key = key)
 
